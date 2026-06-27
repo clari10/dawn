@@ -1,78 +1,78 @@
 {
-  "current": "Dawn",
+  "current": "Clarimento",
   "presets": {
-    "Dawn": {
-      "logo_width": 90,
+    "Clarimento": {
+      "logo_width": 120,
       "color_schemes": {
         "scheme-1": {
           "settings": {
-            "background": "#FFFFFF",
+            "background": "#FBFAF7",
             "background_gradient": "",
-            "text": "#121212",
-            "button": "#121212",
-            "button_label": "#FFFFFF",
-            "secondary_button_label": "#121212",
-            "shadow": "#121212"
+            "text": "#171717",
+            "button": "#171717",
+            "button_label": "#FBFAF7",
+            "secondary_button_label": "#171717",
+            "shadow": "#171717"
           }
         },
         "scheme-2": {
           "settings": {
-            "background": "#F3F3F3",
+            "background": "#E9EFE8",
             "background_gradient": "",
-            "text": "#121212",
-            "button": "#121212",
-            "button_label": "#F3F3F3",
-            "secondary_button_label": "#121212",
-            "shadow": "#121212"
+            "text": "#17211B",
+            "button": "#17211B",
+            "button_label": "#FBFAF7",
+            "secondary_button_label": "#17211B",
+            "shadow": "#17211B"
           }
         },
         "scheme-3": {
           "settings": {
-            "background": "#242833",
+            "background": "#26453E",
             "background_gradient": "",
-            "text": "#FFFFFF",
-            "button": "#FFFFFF",
-            "button_label": "#000000",
-            "secondary_button_label": "#FFFFFF",
+            "text": "#F7FAF4",
+            "button": "#F7FAF4",
+            "button_label": "#26453E",
+            "secondary_button_label": "#F7FAF4",
             "shadow": "#121212"
           }
         },
         "scheme-4": {
           "settings": {
-            "background": "#121212",
+            "background": "#171717",
             "background_gradient": "",
-            "text": "#FFFFFF",
-            "button": "#FFFFFF",
-            "button_label": "#121212",
-            "secondary_button_label": "#FFFFFF",
-            "shadow": "#121212"
+            "text": "#FBFAF7",
+            "button": "#FBFAF7",
+            "button_label": "#171717",
+            "secondary_button_label": "#FBFAF7",
+            "shadow": "#171717"
           }
         },
         "scheme-5": {
           "settings": {
-            "background": "#334FB4",
+            "background": "#BD6E3D",
             "background_gradient": "",
             "text": "#FFFFFF",
             "button": "#FFFFFF",
-            "button_label": "#334FB4",
+            "button_label": "#BD6E3D",
             "secondary_button_label": "#FFFFFF",
-            "shadow": "#121212"
+            "shadow": "#171717"
           }
         }
       },
       "type_header_font": "assistant_n4",
-      "heading_scale": 100,
+      "heading_scale": 115,
       "type_body_font": "assistant_n4",
       "body_scale": 100,
-      "page_width": 1200,
+      "page_width": 1300,
       "spacing_sections": 0,
-      "spacing_grid_horizontal": 8,
-      "spacing_grid_vertical": 8,
+      "spacing_grid_horizontal": 24,
+      "spacing_grid_vertical": 32,
       "animations_reveal_on_scroll": true,
       "animations_hover_elements": "none",
       "buttons_border_thickness": 1,
       "buttons_border_opacity": 100,
-      "buttons_radius": 0,
+      "buttons_radius": 2,
       "buttons_shadow_opacity": 0,
       "buttons_shadow_horizontal_offset": 0,
       "buttons_shadow_vertical_offset": 4,
@@ -86,7 +86,7 @@
       "variant_pills_shadow_blur": 5,
       "inputs_border_thickness": 1,
       "inputs_border_opacity": 55,
-      "inputs_radius": 0,
+      "inputs_radius": 2,
       "inputs_shadow_opacity": 0,
       "inputs_shadow_horizontal_offset": 0,
       "inputs_shadow_vertical_offset": 4,
@@ -97,7 +97,7 @@
       "card_color_scheme": "scheme-2",
       "card_border_thickness": 0,
       "card_border_opacity": 10,
-      "card_corner_radius": 0,
+      "card_corner_radius": 2,
       "card_shadow_opacity": 0,
       "card_shadow_horizontal_offset": 0,
       "card_shadow_vertical_offset": 4,
@@ -108,7 +108,7 @@
       "collection_card_color_scheme": "scheme-2",
       "collection_card_border_thickness": 0,
       "collection_card_border_opacity": 10,
-      "collection_card_corner_radius": 0,
+      "collection_card_corner_radius": 2,
       "collection_card_shadow_opacity": 0,
       "collection_card_shadow_horizontal_offset": 0,
       "collection_card_shadow_vertical_offset": 4,
@@ -119,7 +119,7 @@
       "blog_card_color_scheme": "scheme-2",
       "blog_card_border_thickness": 0,
       "blog_card_border_opacity": 10,
-      "blog_card_corner_radius": 0,
+      "blog_card_corner_radius": 2,
       "blog_card_shadow_opacity": 0,
       "blog_card_shadow_horizontal_offset": 0,
       "blog_card_shadow_vertical_offset": 4,
@@ -133,7 +133,7 @@
       "text_boxes_shadow_blur": 5,
       "media_border_thickness": 1,
       "media_border_opacity": 5,
-      "media_radius": 0,
+      "media_radius": 2,
       "media_shadow_opacity": 0,
       "media_shadow_horizontal_offset": 0,
       "media_shadow_vertical_offset": 4,
@@ -155,8 +155,8 @@
       "badge_corner_radius": 40,
       "sale_badge_color_scheme": "scheme-4",
       "sold_out_badge_color_scheme": "scheme-3",
-      "brand_headline": "",
-      "brand_description": "<p></p>",
+      "brand_headline": "Clarimento",
+      "brand_description": "<p>명료한 선택과 일상의 리듬을 위한 브랜드.</p>",
       "brand_image_width": 100,
       "social_twitter_link": "",
       "social_facebook_link": "",
