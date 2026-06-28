@@ -13,9 +13,45 @@
   "sections": {
     "footer": {
       "type": "footer",
+      "blocks": {
+        "text_ABGQWc": {
+          "type": "text",
+          "settings": {
+            "heading": "CLARIMENTO",
+            "subtext": "<p>문의하기 </p><p>sy@clarimento.com</p>"
+          }
+        },
+        "text_DCigGD": {
+          "type": "text",
+          "settings": {
+            "heading": "제목",
+            "subtext": "<p>연락처 정보, 스토어 세부 정보, 브랜드 콘텐츠를 고객과 공유하십시오.</p>"
+          }
+        },
+        "link_list_7W3ieN": {
+          "type": "link_list",
+          "settings": {
+            "heading": "빠른 링크",
+            "menu": "footer"
+          }
+        },
+        "link_list_AG9hRK": {
+          "type": "link_list",
+          "settings": {
+            "heading": "빠른 링크",
+            "menu": "footer"
+          }
+        }
+      },
+      "block_order": [
+        "text_ABGQWc",
+        "text_DCigGD",
+        "link_list_7W3ieN",
+        "link_list_AG9hRK"
+      ],
       "settings": {
         "color_scheme": "scheme-1",
-        "newsletter_enable": true,
+        "newsletter_enable": false,
         "newsletter_heading": "Clarimento letters",
         "enable_follow_on_shop": true,
         "show_social": true,

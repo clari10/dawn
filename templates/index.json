@@ -152,59 +152,6 @@
         "padding_bottom": 64
       }
     },
-    "category_cards": {
-      "type": "multicolumn",
-      "blocks": {
-        "new_arrivals": {
-          "type": "column",
-          "settings": {
-            "title": "New arrivals",
-            "text": "<p>가장 먼저 공개되는 클라리멘토의 새로운 기준.</p>",
-            "link_label": "Shop new",
-            "link": "shopify://collections/all"
-          }
-        },
-        "daily_routine": {
-          "type": "column",
-          "settings": {
-            "title": "Daily routine",
-            "text": "<p>매일의 동선 안에서 자연스럽게 쓰이는 제품.</p>",
-            "link_label": "Find routine",
-            "link": "shopify://collections/all"
-          }
-        },
-        "gifting": {
-          "type": "column",
-          "settings": {
-            "title": "Gifting",
-            "text": "<p>취향을 과하게 설명하지 않아도 전해지는 선물.</p>",
-            "link_label": "Choose gifts",
-            "link": "shopify://collections/all"
-          }
-        }
-      },
-      "block_order": [
-        "new_arrivals",
-        "daily_routine",
-        "gifting"
-      ],
-      "settings": {
-        "title": "Browse by intention",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "button_label": "",
-        "button_link": "",
-        "columns_desktop": 3,
-        "column_alignment": "left",
-        "background_style": "none",
-        "color_scheme": "scheme-2",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 56,
-        "padding_bottom": 56
-      }
-    },
     "membership_cta": {
       "type": "image-with-text",
       "blocks": {
@@ -260,57 +207,6 @@
         "padding_bottom": 72
       }
     },
-    "guide_cta": {
-      "type": "rich-text",
-      "blocks": {
-        "caption": {
-          "type": "caption",
-          "settings": {
-            "caption": "GUIDE",
-            "text_style": "caption-with-letter-spacing",
-            "text_size": "medium"
-          }
-        },
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "고르는 기준까지 브랜드 경험으로.",
-            "heading_size": "h1"
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "<p>제품을 고르는 기준, 오래 쓰는 방법, 함께 쓰면 좋은 조합을 짧고 선명한 콘텐츠로 전합니다.</p>"
-          }
-        },
-        "button": {
-          "type": "button",
-          "settings": {
-            "button_label": "Read guide",
-            "button_link": "shopify://blogs/news",
-            "button_style_secondary": true,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "caption",
-        "heading",
-        "text",
-        "button"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "scheme-4",
-        "full_width": true,
-        "padding_top": 72,
-        "padding_bottom": 72
-      }
-    },
     "newsletter": {
       "type": "newsletter",
       "blocks": {
@@ -349,9 +245,7 @@
     "clarimento_hero",
     "brand_statement",
     "product_tabs",
-    "category_cards",
     "membership_cta",
-    "guide_cta",
     "newsletter"
   ]
 }
