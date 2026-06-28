@@ -193,6 +193,7 @@
         "button"
       ],
       "settings": {
+        "image": "shopify://shop_images/011.png",
         "height": "medium",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -202,7 +203,7 @@
         "desktop_content_alignment": "left",
         "mobile_content_alignment": "left",
         "section_color_scheme": "scheme-1",
-        "color_scheme": "scheme-3",
+        "color_scheme": "scheme-1",
         "padding_top": 72,
         "padding_bottom": 72
       }
