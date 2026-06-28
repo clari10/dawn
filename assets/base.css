@@ -3610,3 +3610,8 @@ details-disclosure > details {
     transform: translateX(100%) scaleX(0);
   }
 }
+/* 푸터 텍스트 크기 축소 */
+.footer .footer__content p,
+.footer__content .rte p {
+  font-size: 0.75rem; /* 원하는 크기로 조정 (기본 1rem) */
+}
