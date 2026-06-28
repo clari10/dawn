@@ -12,20 +12,6 @@
     "clarimento_hero": {
       "type": "image-banner",
       "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "CLARIMENTO",
-            "heading_size": "hxxl"
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "명료한 취향과 일상의 리듬을 위한 브랜드.",
-            "text_style": "subtitle"
-          }
-        },
         "buttons": {
           "type": "buttons",
           "settings": {
@@ -39,11 +25,10 @@
         }
       },
       "block_order": [
-        "heading",
-        "text",
         "buttons"
       ],
       "settings": {
+        "image": "shopify://shop_images/DSC7077_edited.png",
         "image_overlay_opacity": 10,
         "image_height": "large",
         "image_behavior": "none",
