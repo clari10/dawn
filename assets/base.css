@@ -3615,3 +3615,36 @@ details-disclosure > details {
 .footer__content .rte p {
   font-size: 0.75rem; /* 원하는 크기로 조정 (기본 1rem) */
 }
+/* ===== 호버 시에만 Add to Cart 버튼 표시 ===== */
+
+/* 기본: 버튼 숨김 */
+quick-add-button,
+.quick-add,
+.product-card__quick-add {
+  opacity: 0 !important;
+  transform: translateY(8px);
+  transition: opacity 0.25s ease, transform 0.25s ease;
+  pointer-events: none;
+}
+
+/* 호버 시: 버튼 표시 */
+.card:hover quick-add-button,
+.card:hover .quick-add,
+.card:hover .product-card__quick-add,
+[class*="product-card"]:hover quick-add-button,
+[class*="product-card"]:hover .quick-add {
+  opacity: 1 !important;
+  transform: translateY(0);
+  pointer-events: auto;
+}
+
+/* 모바일: 항상 표시 (터치 기기는 호버 없음) */
+@media (hover: none) {
+  quick-add-button,
+  .quick-add,
+  .product-card__quick-add {
+    opacity: 1 !important;
+    transform: none;
+    pointer-events: auto;
+  }
+}
