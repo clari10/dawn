@@ -11,22 +11,6 @@
   "sections": {
     "clarimento_hero": {
       "type": "image-banner",
-      "blocks": {
-        "buttons": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Shop",
-            "button_link_1": "shopify://collections/all",
-            "button_style_secondary_1": false,
-            "button_label_2": "About",
-            "button_link_2": "shopify://pages/about",
-            "button_style_secondary_2": true
-          }
-        }
-      },
-      "block_order": [
-        "buttons"
-      ],
       "settings": {
         "image": "shopify://shop_images/DSC7077_edited.png",
         "image_overlay_opacity": 10,
@@ -55,14 +39,14 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "좋은 선택은 더 분명한 하루를 만듭니다.",
-            "heading_size": "h1"
+            "heading": "맛있는 커피는 적절한 숙성의 시간이 요구됩니다.",
+            "heading_size": "h2"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>클라리멘토는 일상에서 자주 쓰는 것들을 가볍고 정확하게 고를 수 있도록 큐레이션합니다. 덜어낸 설명, 선명한 기준, 오래 쓰기 좋은 감각을 홈의 중심에 둡니다.</p>"
+            "text": "<p>생두에서부터 로스팅~추출까지의 모든 과정에서 최적의 맛을 위한</p><p>의미있는 기다림은 좋은 컵에 대한 우리의 기본 자세입니다.</p>"
           }
         }
       },

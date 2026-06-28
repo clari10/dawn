@@ -32,16 +32,14 @@
                 {{ block.settings.heading }}
               </h2>
             {%- when 'caption' -%}
-              <p
-                class="rich-text__caption {{ block.settings.text_style }} {{ block.settings.text_style }}--{{ block.settings.text_size }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
-                {{ block.shopify_attributes }}
-                {% if settings.animations_reveal_on_scroll %}
-                  data-cascade
-                  style="--animation-order: {{ forloop.index }};"
-                {% endif %}
-              >
-                {{ block.settings.caption | escape }}
-              </p>
+  <p
+    class="rich-text__caption {{ block.settings.text_style }} {{ block.settings.text_style }}--{{ block.settings.text_size }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+    {{ block.shopify_attributes }}
+    style="color: #a4247a;{% if settings.animations_reveal_on_scroll %} --animation-order: {{ forloop.index }};{% endif %}"
+  >
+    {{ block.settings.caption | escape }}
+  </p>
+
             {%- when 'text' -%}
               <div
                 class="rich-text__text rte{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
@@ -232,6 +230,7 @@
           "id": "caption",
           "default": "t:sections.rich-text.blocks.caption.settings.text.default",
           "label": "t:sections.rich-text.blocks.caption.settings.text.label"
+          
         },
         {
           "type": "select",
