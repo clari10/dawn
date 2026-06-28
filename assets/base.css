@@ -3648,8 +3648,14 @@ quick-add-button,
     pointer-events: auto;
   }
 }
+
 /* Quick add button - image overlay on hover */
-.card-wrapper .quick-add {
+.card__inner {
+  position: relative;
+  overflow: hidden;
+}
+
+.card__inner .quick-add {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -3660,11 +3666,12 @@ quick-add-button,
   width: calc(100% - 2rem);
 }
 
-.card-wrapper:hover .quick-add {
+.card__inner:hover .quick-add {
   opacity: 1;
 }
 
-.card__inner {
-  position: relative;
-  overflow: hidden;
+/* 이미지 아래 기본 quick-add 숨기기 */
+.card-information .quick-add {
+  display: none;
 }
+
