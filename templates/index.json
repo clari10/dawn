@@ -70,44 +70,22 @@
         "new": {
           "type": "collection_tab",
           "settings": {
-            "tab_label": "New",
+            "tab_label": "New Numbering",
             "collection": "all",
             "button_label": "View new arrivals",
-            "button_link": "shopify://collections/all",
-            "button_style_secondary": true
-          }
-        },
-        "best": {
-          "type": "collection_tab",
-          "settings": {
-            "tab_label": "Best",
-            "collection": "all",
-            "button_label": "Shop best sellers",
-            "button_link": "shopify://collections/all",
-            "button_style_secondary": true
-          }
-        },
-        "sets": {
-          "type": "collection_tab",
-          "settings": {
-            "tab_label": "Sets",
-            "collection": "all",
-            "button_label": "Explore sets",
             "button_link": "shopify://collections/all",
             "button_style_secondary": true
           }
         }
       },
       "block_order": [
-        "new",
-        "best",
-        "sets"
+        "new"
       ],
       "settings": {
-        "eyebrow": "Shop",
-        "heading": "Shop Clarimento",
+        "eyebrow": "",
+        "heading": "",
         "heading_size": "h1",
-        "description": "<p>새롭게 소개하는 제품, 많이 찾는 제품, 함께 쓰기 좋은 세트를 한 화면에서 빠르게 둘러볼 수 있습니다.</p>",
+        "description": "",
         "products_to_show": 8,
         "columns_desktop": 4,
         "columns_mobile": "2",
@@ -117,7 +95,7 @@
         "show_rating": false,
         "quick_add": "standard",
         "color_scheme": "scheme-1",
-        "padding_top": 52,
+        "padding_top": 28,
         "padding_bottom": 64
       }
     },
@@ -190,7 +168,7 @@
         "paragraph": {
           "type": "paragraph",
           "settings": {
-            "text": "<p>새로운 제품, 기준, 이야기를 가장 먼저 받아보세요.</p>"
+            "text": "<p>새로운 제품, 행사 소식, 이야기를 가장 먼저 받아보세요.</p>"
           }
         },
         "email_form": {

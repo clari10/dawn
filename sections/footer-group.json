@@ -17,37 +17,21 @@
         "text_ABGQWc": {
           "type": "text",
           "settings": {
-            "heading": "CLARIMENTO",
-            "subtext": "<p>문의하기 </p><p>sy@clarimento.com</p>"
+            "heading": "문의하기",
+            "subtext": "<h4>sy@clarimento.com</h4>"
           }
         },
-        "text_DCigGD": {
+        "text_FhCTpY": {
           "type": "text",
           "settings": {
-            "heading": "제목",
-            "subtext": "<p>연락처 정보, 스토어 세부 정보, 브랜드 콘텐츠를 고객과 공유하십시오.</p>"
-          }
-        },
-        "link_list_7W3ieN": {
-          "type": "link_list",
-          "settings": {
-            "heading": "빠른 링크",
-            "menu": "footer"
-          }
-        },
-        "link_list_AG9hRK": {
-          "type": "link_list",
-          "settings": {
-            "heading": "빠른 링크",
-            "menu": "footer"
+            "heading": "<strong>Lounge Clarimento</strong>",
+            "subtext": "<h4>Address</h4><p>1F, 18, Jandari-ro 7an-gil, Mapo-gu, Seoul, Republic of Korea</p><h4>Opening Hours</h4><ul><li><strong>Mon - Fri:</strong> 08:00 AM - 07:00 PM</li><li><strong>Sat - Sun:</strong> 10:00 AM - 07:00 PM</li></ul>"
           }
         }
       },
       "block_order": [
         "text_ABGQWc",
-        "text_DCigGD",
-        "link_list_7W3ieN",
-        "link_list_AG9hRK"
+        "text_FhCTpY"
       ],
       "settings": {
         "color_scheme": "scheme-1",
@@ -60,8 +44,8 @@
         "payment_enable": false,
         "show_policy": true,
         "margin_top": 0,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 24,
+        "padding_bottom": 24
       }
     }
   },

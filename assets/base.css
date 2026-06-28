@@ -3674,4 +3674,7 @@ quick-add-button,
 .card-information .quick-add {
   display: none;
 }
+.newsletter-form__field-wrapper input {
+  border-color: #7B2D8B !important;
+}
 
