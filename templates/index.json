@@ -11,6 +11,22 @@
   "sections": {
     "clarimento_hero": {
       "type": "image-banner",
+      "blocks": {
+        "buttons_7FknMP": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "",
+            "button_link_1": "/collections/all",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "buttons_7FknMP"
+      ],
       "settings": {
         "image": "shopify://shop_images/DSC7077_edited.png",
         "image_overlay_opacity": 10,
