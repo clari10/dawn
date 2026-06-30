@@ -1,24 +1,51 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "name": "t:sections.footer.name",
   "type": "footer",
   "sections": {
     "footer": {
       "type": "footer",
-      "blocks": {},
-      "block_order": [],
+      "blocks": {
+        "text_ABGQWc": {
+          "type": "text",
+          "settings": {
+            "heading": "문의하기",
+            "subtext": "<h4>sy@clarimento.com</h4>"
+          }
+        },
+        "text_FhCTpY": {
+          "type": "text",
+          "settings": {
+            "heading": "<strong>Lounge Clarimento</strong>",
+            "subtext": "<h4>Address</h4><p>1F, 18, Jandari-ro 7an-gil, Mapo-gu, Seoul, Republic of Korea</p><h4>Opening Hours</h4><ul><li><strong>Mon - Fri:</strong> 08:00 AM - 07:00 PM</li><li><strong>Sat - Sun:</strong> 10:00 AM - 07:00 PM</li></ul>"
+          }
+        }
+      },
+      "block_order": [
+        "text_ABGQWc",
+        "text_FhCTpY"
+      ],
       "settings": {
         "color_scheme": "scheme-1",
-        "newsletter_enable": true,
-        "newsletter_heading": "Subscribe to our emails",
+        "newsletter_enable": false,
+        "newsletter_heading": "Clarimento letters",
         "enable_follow_on_shop": true,
         "show_social": true,
-        "enable_country_selector": true,
-        "enable_language_selector": true,
-        "payment_enable": true,
+        "enable_country_selector": false,
+        "enable_language_selector": false,
+        "payment_enable": false,
         "show_policy": true,
         "margin_top": 0,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 24,
+        "padding_bottom": 24
       }
     }
   },

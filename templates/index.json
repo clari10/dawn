@@ -1,21 +1,23 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
-    "image_banner": {
+    "clarimento_hero": {
       "type": "image-banner",
       "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Browse our latest products",
-            "heading_size": "h0"
-          }
-        },
-        "button": {
+        "buttons_7FknMP": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop all",
-            "button_link_1": "shopify://collections/all",
-            "button_style_secondary_1": true,
+            "button_label_1": "",
+            "button_link_1": "/collections/all",
+            "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
             "button_style_secondary_2": false
@@ -23,53 +25,191 @@
         }
       },
       "block_order": [
-        "heading",
-        "button"
+        "buttons_7FknMP"
       ],
       "settings": {
-        "image_overlay_opacity": 40,
+        "image": "shopify://shop_images/DSC7077_edited.png",
+        "image_overlay_opacity": 10,
         "image_height": "large",
-        "desktop_content_position": "bottom-center",
-        "show_text_box": false,
         "image_behavior": "none",
+        "desktop_content_position": "middle-center",
         "desktop_content_alignment": "center",
-        "color_scheme": "scheme-3",
-        "mobile_content_alignment": "center",
+        "show_text_box": false,
+        "color_scheme": "scheme-1",
         "stack_images_on_mobile": false,
-        "show_text_below": false
+        "mobile_content_alignment": "center",
+        "show_text_below": true
       }
     },
-    "featured_collection": {
-      "type": "featured-collection",
+    "brand_statement": {
+      "type": "rich-text",
+      "blocks": {
+        "caption": {
+          "type": "caption",
+          "settings": {
+            "caption": "REST FOR TASTE",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "맛있는 커피는 적절한 숙성의 시간이 요구됩니다.",
+            "heading_size": "h2"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>생두에서부터 로스팅~추출까지의 모든 과정에서 최적의 맛을 위한</p><p>의미있는 기다림은 좋은 컵에 대한 우리의 기본 자세입니다.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "caption",
+        "heading",
+        "text"
+      ],
       "settings": {
-        "title": "Featured products",
-        "heading_size": "h2",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-1",
+        "full_width": true,
+        "padding_top": 64,
+        "padding_bottom": 52
+      }
+    },
+    "product_tabs": {
+      "type": "clarimento-product-tabs",
+      "blocks": {
+        "new": {
+          "type": "collection_tab",
+          "settings": {
+            "tab_label": "New Numbering",
+            "collection": "all",
+            "button_label": "View new arrivals",
+            "button_link": "shopify://collections/all",
+            "button_style_secondary": true
+          }
+        }
+      },
+      "block_order": [
+        "new"
+      ],
+      "settings": {
+        "eyebrow": "",
+        "heading": "",
+        "heading_size": "h1",
         "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "all",
         "products_to_show": 8,
         "columns_desktop": 4,
-        "color_scheme": "scheme-1",
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "swipe_on_mobile": false,
+        "columns_mobile": "2",
         "image_ratio": "adapt",
-        "image_shape": "default",
         "show_secondary_image": true,
         "show_vendor": false,
         "show_rating": false,
-        "quick_add": "none",
-        "columns_mobile": "2",
-        "padding_top": 44,
-        "padding_bottom": 36
+        "quick_add": "standard",
+        "color_scheme": "scheme-1",
+        "padding_top": 28,
+        "padding_bottom": 64
+      }
+    },
+    "membership_cta": {
+      "type": "image-with-text",
+      "blocks": {
+        "caption": {
+          "type": "caption",
+          "settings": {
+            "caption": "CLARIMENTO CLUB",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "필요한 순간에 맞춰 다시 만나는 제품.",
+            "heading_size": "h1"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>구독, 재구매, 선물 제안처럼 반복되는 브랜드 경험을 한곳에서 이어갑니다. 필요한 제품을 놓치지 않고, 더 가볍게 다시 선택할 수 있습니다.</p>",
+            "text_style": "body"
+          }
+        },
+        "button": {
+          "type": "button",
+          "settings": {
+            "button_label": "Explore club",
+            "button_link": "shopify://collections/all",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "caption",
+        "heading",
+        "text",
+        "button"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/011.png",
+        "height": "medium",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "scheme-1",
+        "padding_top": 72,
+        "padding_bottom": 72
+      }
+    },
+    "newsletter": {
+      "type": "newsletter",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Clarimento letters",
+            "heading_size": "h1"
+          }
+        },
+        "paragraph": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>새로운 제품, 행사 소식, 이야기를 가장 먼저 받아보세요.</p>"
+          }
+        },
+        "email_form": {
+          "type": "email_form",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "heading",
+        "paragraph",
+        "email_form"
+      ],
+      "settings": {
+        "color_scheme": "scheme-1",
+        "full_width": true,
+        "padding_top": 60,
+        "padding_bottom": 68
       }
     }
   },
   "order": [
-    "image_banner",
-    "featured_collection"
+    "clarimento_hero",
+    "brand_statement",
+    "product_tabs",
+    "membership_cta",
+    "newsletter"
   ]
 }

@@ -3610,3 +3610,72 @@ details-disclosure > details {
     transform: translateX(100%) scaleX(0);
   }
 }
+/* 푸터 텍스트 크기 축소 */
+.footer .footer__content p,
+.footer__content .rte p {
+  font-size: 0.75rem; /* 원하는 크기로 조정 (기본 1rem) */
+}
+/* ===== 호버 시에만 Add to Cart 버튼 표시 ===== */
+
+/* 기본: 버튼 숨김 */
+quick-add-button,
+.quick-add,
+.product-card__quick-add {
+  opacity: 0 !important;
+  transform: translateY(8px);
+  transition: opacity 0.25s ease, transform 0.25s ease;
+  pointer-events: none;
+}
+
+/* 호버 시: 버튼 표시 */
+.card:hover quick-add-button,
+.card:hover .quick-add,
+.card:hover .product-card__quick-add,
+[class*="product-card"]:hover quick-add-button,
+[class*="product-card"]:hover .quick-add {
+  opacity: 1 !important;
+  transform: translateY(0);
+  pointer-events: auto;
+}
+
+/* 모바일: 항상 표시 (터치 기기는 호버 없음) */
+@media (hover: none) {
+  quick-add-button,
+  .quick-add,
+  .product-card__quick-add {
+    opacity: 1 !important;
+    transform: none;
+    pointer-events: auto;
+  }
+}
+
+/* Quick add button - image overlay on hover */
+.card__inner {
+  position: relative;
+  overflow: hidden;
+}
+
+.card__inner .quick-add {
+  position: absolute;
+  bottom: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+  width: calc(100% - 2rem);
+}
+
+.card__inner:hover .quick-add {
+  opacity: 1;
+}
+
+/* 이미지 아래 기본 quick-add 숨기기 */
+.card-information .quick-add {
+  display: none;
+}
+.field__input {
+  border-color: #7B2D8B !important;
+}
+
+
